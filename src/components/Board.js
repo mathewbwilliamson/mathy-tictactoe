@@ -1,6 +1,14 @@
 import React from 'react';
 import Square from './Square';
 
+//Plan:
+// Change CSS
+// Be able to change size of the board (inline text change)
+// Be able to change the rules of the game (how do I modularize this?)
+// Different size boards, how many in a row is needed? 
+// Win logic needs to be created for basic 3 x 3 game
+// Win logic for different size boards needs to be created
+
 export default class Board extends React.Component {
     constructor(props) {
         super(props);
